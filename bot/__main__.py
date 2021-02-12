@@ -88,7 +88,7 @@ def bot_help(update, context):
 /{BotCommands.AuthorizeCommand}: Authorize a chat or a user to use the bot (Can only be invoked by owner of the bot)📈.
 /{BotCommands.LogCommand}: Get a log file of the bot. Handy for getting crash reports📉.
 /clone: To clone from google drive😉.
-Me and my master is soo happy to see you😊. 💕 BOT BY @Debojit16 💕
+Me and my master is soo happy to see you😊.                     💕 BOT BY @Debojit16 💕
 
 '''
     sendMessage(help_string, context.bot, update)
