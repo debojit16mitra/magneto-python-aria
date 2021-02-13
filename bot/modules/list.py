@@ -17,7 +17,7 @@ def list_drive(update,context):
         if button:
             editMessage(msg, reply, button)
         else:
-            editMessage('No result found', reply, button)
+            editMessage('No result found, Goto https://testing.bunny.workers.dev/0:/ to search.', reply, button)
 
     except IndexError:
         sendMessage('send a search key along with command', context.bot, update)
